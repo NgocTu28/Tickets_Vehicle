@@ -20,10 +20,14 @@ import project.tickets_vehicle.tickets.model.basic.BaseEntity;
 public class User extends BaseEntity {
     @Column(name = "user_id")
     String userId;
+    @Column(name = "user_name")
+    String userName;
     @Column(name = "password")
     String password;
     @Column(name = "email")
     String email;
+    @Column(name = "image")
+    String image;
     @Column(name = "phone_number")
     String phoneNumber;
     @Column(name = "role")

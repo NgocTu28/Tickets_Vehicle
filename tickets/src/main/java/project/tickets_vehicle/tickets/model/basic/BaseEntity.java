@@ -32,4 +32,6 @@ public abstract class BaseEntity {
     @Column(name = "user_update")
     String userUpdate;
 
+    @Column(name = "user_status")
+    Integer userStatus;
 }
